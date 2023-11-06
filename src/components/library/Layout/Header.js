@@ -69,7 +69,7 @@ export const Header = () => {
             margin="none"
             InputProps={{
               startAdornment: (
-                <InputAdornment position="start" className="h-6 w-6 !relative">
+                <InputAdornment position="start" className="!h-6 !w-6 !relative">
                   <ImageView
                     src={"/icons/Search.png"}
                     alt={"Search"}
