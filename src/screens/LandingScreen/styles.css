@@ -1,0 +1,9 @@
+.flex-row-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  /* Hide scrollbar for webkit browsers */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  --text-color-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--text-color-rgb));
+  background: rgb(var(--foreground-rgb));
+}
+
+.flex-row-container {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+
+  /* Hide scrollbar for webkit browsers */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
