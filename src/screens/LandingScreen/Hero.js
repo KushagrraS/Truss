@@ -20,7 +20,8 @@ export const Hero = ({ data }) => {
           fontFamily={"var(--font-rigidSquare)"}
           fontWeight={700}
           color={"#000000"}
-          className="leading-[64px] w-[70%] xsm:text-[28px] xsm:leading-8 xsm:w-full md:w-full lg:w-full"
+          component={"span"}
+          className="!leading-[64px] !w-[70%] xsm:!text-[28px] xsm:!leading-8 xsm:!w-full md:!w-full lg:!w-full"
         >
           {textUtils.landingScreen.hero.heading}
         </Typography>
@@ -29,13 +30,14 @@ export const Hero = ({ data }) => {
           fontFamily={"Inter"}
           fontWeight={400}
           color={"#000000"}
-          className="xsm:text-sm"
+          component={"span"}
+          className="xsm:!text-sm"
         >
           {textUtils.landingScreen.hero.subHeading}
         </Typography>
         <Button
           variant="outlined"
-          className="!text-start !border-0 !rounded-none font-rigidSquare !bg-neutral-800 px-5 py-4 w-[38%] !text-neutral-100 text-sm font-bold hover:w-[39%] hover:transition-all hover:ease-in-out hover:duration-500 xsm:w-[65%] xsm:hover:w-[70%] lg:w-[55%] lg:hover:w-[58%]"
+          className="!text-start !border-0 !rounded-none !font-rigidSquare !bg-neutral-800 !px-5 !py-4 !w-[38%] !text-neutral-100 !text-sm !font-bold hover:!w-[39%] hover:!transition-all hover:!ease-in-out hover:!duration-500 xsm:!w-[65%] xsm:hover:!w-[70%] lg:!w-[55%] lg:hover:!w-[58%]"
           endIcon={<ArrowForwardIcon className="text-neutral-100" />}
         >
           {textUtils.landingScreen.hero.buttonText}
