@@ -11,6 +11,7 @@ module.exports = withMT({
     "./src/Components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/App/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/Screens/**/*.{js,ts,jsx,tsx,mdx}",
+    "./Components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
