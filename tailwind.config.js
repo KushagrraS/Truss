@@ -7,6 +7,10 @@ module.exports = withMT({
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/screens/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/Pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/Components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/App/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/Screens/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
