@@ -59,7 +59,7 @@ export const Guides = () => {
           </Box>
           <Button
             variant="outlined"
-            className="!border-0 !rounded-none font-rigidSquare bg-neutral-100 px-5 py-4 w-[35%] text-neutral-800 text-sm font-bold hover:bg-neutral-800 hover:text-neutral-100 hover:w-[36%] hover:transition-all hover:ease-in-out hover:delay-200 group xsm:w-[55%] xsm:hover:w-[60%] lg:w-[40%] lg:hover:w-[41%]"
+            className="!border-0 !rounded-none !font-rigidSquare !bg-neutral-100 !px-5 !py-4 !w-[35%] !text-neutral-800 !text-sm !font-bold hover:!bg-neutral-800 hover:!text-neutral-100 hover:!w-[36%] hover:!transition-all hover:!ease-in-out hover:!delay-200 group xsm:!w-[55%] xsm:hover:!w-[60%] lg:!w-[40%] lg:hover:!w-[41%]"
             endIcon={
               <ArrowForwardIcon className="text-neutral-800 group-hover:!text-neutral-100" />
             }
@@ -84,13 +84,13 @@ export const Guides = () => {
           ))}
         </Box>
         <Stack direction={"row"} className="items-center">
-          <IconButton className="!p-2 !rounded-none hover:bg-neutral-800 group transition-all ease-in-out duration-500">
+          <IconButton className="!p-2 !rounded-none hover:!bg-neutral-800 group !transition-all !ease-in-out !duration-500">
             <ArrowBackIcon
               sx={{ color: "#000000" }}
               className="group-hover:!text-neutral-100"
             />
           </IconButton>
-          <IconButton className="!p-2 !rounded-none hover:bg-neutral-800 group transition-all ease-in-out duration-500">
+          <IconButton className="!p-2 !rounded-none hover:!bg-neutral-800 group !transition-all !ease-in-out !duration-500">
             <ArrowForwardIcon
               sx={{ color: "#000000" }}
               className="group-hover:!text-neutral-100"

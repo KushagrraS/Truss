@@ -54,7 +54,7 @@ export const SellerSpotlight = () => {
           />
           <Button
             variant="outlined"
-            className="!border-0 !rounded-none !font-rigidSquare !bg-neutral-100 !px-5 py-4 w-[35%] !text-neutral-800 !text-sm !font-bold hover:!bg-neutral-800 hover:!text-neutral-100 hover:!w-[36%] !transition-all !ease-in-out !delay-200 group xsm:!w-[55%] xsm:!hover:w-[60%] lg:!w-[40%] lg:hover:!w-[41%]"
+            className="!border-0 !rounded-none !font-rigidSquare !bg-neutral-100 !px-5 !py-4 !w-[35%] !text-neutral-800 !text-sm !font-bold hover:!bg-neutral-800 hover:!text-neutral-100 hover:!w-[36%] !transition-all !ease-in-out !delay-200 group xsm:!w-[55%] xsm:hover:!w-[60%] lg:!w-[40%] lg:hover:!w-[41%]"
             endIcon={
               <ArrowForwardIcon className="text-neutral-800 group-hover:!text-neutral-100" />
             }

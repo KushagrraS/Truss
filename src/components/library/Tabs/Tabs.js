@@ -60,7 +60,7 @@ function TabsComponent({ tabs, className }) {
               label={tab.label}
               {...a11yProps(index)}
               key={index}
-              className="font-rigidSquare uppercase text-[14px] !text-neutral-800 font-bold !p-0 mr-4 last:mr-0 min-w-0"
+              className="!font-rigidSquare !uppercase !text-[14px] !text-neutral-800 !font-bold !p-0 !mr-4 last:!mr-0 !min-w-0"
             />
           ))}
         </Tabs>

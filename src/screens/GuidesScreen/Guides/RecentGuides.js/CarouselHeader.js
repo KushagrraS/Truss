@@ -56,10 +56,10 @@ export const CarouselHeader = ({
           {title}
         </Typography>
       </Box>
-      <Stack direction={"row"} className="border-l-[1px] border-neutral-100">
+      <Stack direction={"row"} className="!border-l-[1px] !border-neutral-100">
         <ArrowIcon
           handleOnButtonClick={onLeftButtonClick}
-          arrowClassname={"border-r-[1px] border-r-neutral-100"}
+          arrowClassname={"!border-r-[1px] !border-r-neutral-100"}
         >
           <ArrowBackIcon
             sx={{
